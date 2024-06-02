@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+trix-editor {
+    background-color: white;
+    border: 40px solid cyan;
+}
+
+/* Target the toolbar container */
+.trix-toolbar {
+    background-color: white; 
+}
+
+/* Target the toolbar buttons */
+.trix-button {
+    color: black;
+}
+
+/* Target the active state of toolbar buttons */
+.trix-button--selected {
+    color: cyan;
+}
+
+/* Target the toolbar buttons on hover */
+.trix-button:hover {
+    background-color: cyan; 
+    color: white; 
+}
